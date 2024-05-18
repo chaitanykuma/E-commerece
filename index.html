@@ -8,10 +8,13 @@
 </head>
 <body>
     <h1>Hriday Kumar </h1>
+    <a href="index.php" class="btn btn-danger"></a>SAVE</a>
     <input type="button" class="alert alert-success" id="relocate" name="relocate" value="change">
     <script>
         $(document).ready(function(){
-            location.href("index.php");
+            $("#relocate").on("click", function(){
+                location.href("index.php");
+            });
         });
     </script>
 </body>
