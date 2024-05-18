@@ -1,0 +1,88 @@
+/* .randicontainer{
+    float: right;
+      margin:  500px 450px 250px 300px;
+          background-color: red;
+      }
+      .logo-container {
+    width: 150px; 
+    height: 150px; 
+    border: 20px solid rgb(254, 253, 253);
+    border-top-color: rgb(9, 9, 9);
+    border-bottom-color: black;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveLogo 3s linear infinite ; 
+  }
+  
+  .buffer{
+      width: 90px ;
+      height: 90px;
+      margin: 30px;
+      border: 20px solid black;
+      border-top-color: white;
+      border-bottom-color:white ;
+      border-radius: 50%;
+      transform: rotate(20deg);
+      position:absolute;
+      animation: rotate 3s linear infinite reverse;
+  }
+  .buffer1{
+      width: 30px;
+      height: 30px;
+      border: 15px solid black;
+      border-radius: 50%;
+      margin: 65px;
+      border-top-color: white;
+      border-bottom-color: white;
+      transform: rotate(30deg);
+      position: absolute;
+      animation: rotate1 3s linear infinite ;
+  }
+  @keyframes moveLogo{
+    0% {
+      transform:  rotate(0deg);
+    }
+    50% {
+      transform:  rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate{
+    0% {
+      transform:  rotate(0deg);
+    }
+    50% {
+      transform:  rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate1{
+    0% {
+      transform:  rotate(0deg);
+    }
+    50% {
+      transform:  rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+   /*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,88 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+  body{
+    max-width: 98%;
+    background-color: blanchedalmond;
+  }
+.all{
+    /* height: 700px; */
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    /* background-color: red; */
+    display: flex;
+   
+}
+.div-1{
+  margin-top: 5px;
+  /* padding: 5px; */
+  padding-top: 5px;
+  padding-left: 5px;
+    /* height: 100%; */
+    width: 100%;
+    float: left;
+    /* background-color: aqua;
+    border: 3px solid navy; */
+}
+.content2{
+  width: 200px;
+  margin-right: 25px;
+  /* border: 3px solid green; */
+  height: 100%;
+}
+.div-2{
+    height: 100%;
+    /* width: 22%; */
+    float: right;
+    margin-top: 50px;
+    margin-left: 40px;
+    /* background-color: blue; */
+}
+.img1, .img2, .img3, .img4{
+  /* border: 3px solid yellow; */
+  padding: 10px 10px 10px 10px;
+  margin-top: 5px;
+  /* width: 350px; */
+  /* margin: 10px 10px 10px 10px; */
+}
+.blogcontent{
+  margin-top: 20px;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
